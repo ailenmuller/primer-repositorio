@@ -1,0 +1,54 @@
+:root {
+  --magenta: #9f18a8;
+  --light-magenta: #cf8bd3;
+}
+
+body {
+  position: relative;
+  font-family: monospace;
+  line-height: 2;
+  overflow-x: hidden;
+}
+
+.title,
+.subtitle,
+.main-text {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.main-text {
+  font-size: 20px;
+}
+
+.shape-top-right {
+  position: absolute;
+  top: -50px;
+  right: -80px;
+  width: 400px;
+  height: 200px;
+  background-color: var(--magenta);
+  border-radius: 70% 0% 70% 0%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.shape-bottom-left {
+  position: absolute;
+  bottom: -50px;
+  left: -80px;
+  width: 400px;
+  height: 200px;
+  background-color: var(--light-magenta);
+  border-radius: 70% 0% 70% 0%;
+  z-index: 0;
+  pointer-events: none;
+}
