@@ -1,4 +1,6 @@
 :root {
+  --turquoise: #18a89f;
+  --light-turquoise: #8bd3cf;
   --magenta: #9f18a8;
   --light-magenta: #cf8bd3;
 }
@@ -35,7 +37,7 @@ body {
   right: -80px;
   width: 400px;
   height: 200px;
-  background-color: var(--magenta);
+  background-color: var(--turquoise);
   border-radius: 70% 0% 70% 0%;
   z-index: 0;
   pointer-events: none;
@@ -47,7 +49,7 @@ body {
   left: -80px;
   width: 400px;
   height: 200px;
-  background-color: var(--light-magenta);
+  background-color: var(--light-turquoise);
   border-radius: 70% 0% 70% 0%;
   z-index: 0;
   pointer-events: none;
